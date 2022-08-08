@@ -141,57 +141,59 @@ function timenowcolorupdate() {
 };
 timenowcolorupdate();
 
-var currrentTime = new Date();
+var currentTime = new Date();
 var futureTime = new Date();
 futureTime.setTime(futureTime.getTime() + 3600000);
 futureTime.setMinutes(0);
 futureTime.setMinutes(0);
 var refreshTime = (futureTime.getTime() - currentTime.getTime());
-
+setTimeout(function(){
+    window.location.reload(true);
+}, refreshTime);
 
 savebutton9AM.on('click', function() {
-    var textnineam = textarea9am.val();
+    var textnineam = text9AM.val();
     localStorage.setItem('textnineam', JSON.stringify(textnineam));
 });
 
 savebutton10AM.on('click', function() {
-    var texttenam = textarea10am.val();
+    var texttenam = text10AM.val();
     localStorage.setItem('texttenam', JSON.stringify(texttenam));
 });
 
 
 savebutton11AM.on('click', function () {
-    var textelevenam = textarea11am.val();
+    var textelevenam = text11AM.val();
     localStorage.setItem('textelevenam', JSON.stringify(textelevenam));
 });
 
 savebutton12PM.on('click', function () {
-    var texttwelvepm = textarea12pm.val();
+    var texttwelvepm = text12PM.val();
     localStorage.setItem('texttwelvepm', JSON.stringify(texttwelvepm));
 });
 
 savebutton1PM.on('click', function () {
-    var textonepm = textarea1pm.val();
+    var textonepm = text1PM.val();
     localStorage.setItem('textonepm', JSON.stringify(textonepm));
 });
 
 savebutton2PM.on('click', function () {
-    var texttwopm = textarea2pm.val();
+    var texttwopm = text2PM.val();
     localStorage.setItem('texttwopm', JSON.stringify(texttwopm));
 });
 
 savebutton3PM.on('click', function () {
-    var textthreepm = textarea3pm.val();
+    var textthreepm = text3PM.val();
     localStorage.setItem('textthreepm', JSON.stringify(textthreepm));
 });
 
 savebutton4PM.on('click', function () {
-    var textfourpm = textarea4pm.val();
+    var textfourpm = text4PM.val();
     localStorage.setItem('textfourpm', JSON.stringify(textfourpm));
 });
 
 savebutton5PM.on('click', function () {
-    var textfivepm = textarea5pm.val();
+    var textfivepm = text5PM.val();
     localStorage.setItem('textfivepm', JSON.stringify(textfivepm));
 });
 
