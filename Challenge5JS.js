@@ -93,50 +93,50 @@ function timenowcolorupdate() {
     if (13 >= hour && hour <14) {
         text1PM.addClass('present');
     } else if (hour >=10) {
-        text1pm.addClass('past');
+        text1PM.addClass('past');
     };
     if (hour<13) {
-        text1pm.addClass('future');
+        text1PM.addClass('future');
     };
 
     // 2
     if (14 >= hour && hour <15) {
-        text2pm.addClass('present');
+        text2PM.addClass('present');
     } else if (hour >=15) {
-        text2pm.addClass('past');
+        text2PM.addClass('past');
     };
     if (hour<14) {
-        text2pm.addClass('future');
+        text2PM.addClass('future');
     };
 
     // 3
     if (15 >= hour && hour <16) {
-        text3pm.addClass('present');
+        text3PM.addClass('present');
     } else if (hour >=16) {
-        text3pm.addClass('past');
+        text3PM.addClass('past');
     };
     if (hour<15) {
-        text3pm.addClass('future');
+        text3PM.addClass('future');
     };
 
     // 4
     if (16 >= hour && hour <17) {
-        text4pm.addClass('present');
+        text4PM.addClass('present');
     } else if (hour >=16) {
-        text4pm.addClass('past');
+        text4PM.addClass('past');
     };
     if (hour<16) {
-        text4pm.addClass('future');
+        text4PM.addClass('future');
     };
 
     // 5
     if (17 >= hour && hour <18) {
-        text5pm.addClass('present');
+        text5PM.addClass('present');
     } else if (hour >=18) {
-        text5pm.addClass('past');
+        text5PM.addClass('past');
     };
     if (hour<17) {
-        text5pm.addClass('future');
+        text5PM.addClass('future');
     };
 };
 timenowcolorupdate();
