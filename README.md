@@ -1,5 +1,5 @@
 # Work Day Scheduler
-*This is a work day scheduler created using JavaScript and JQuery to capture the day's events.
+* This is a work day scheduler created using JavaScript and JQuery to capture the day's events.
 # Installation
 * No installation required.
 # Usage
@@ -8,8 +8,8 @@
 * On refresh of the page, each entry will remain for the current day. 
 ![image](https://user-images.githubusercontent.com/108310217/183535470-b073625e-360b-46b2-9ae1-c87108cca23e.png)
 * Follow link to begin using this application: file:///C:/Users/mkmar/OneDrive/UMN%20Coding%20Bootcamp/super-disco-main/Develop/index.html
-#Credits
-*Xandromus Naming Repo for starting code.
-*Coding-boot-camp / super-disco repository
-*Mark Kelly
+# Credits
+* Xandromus Naming Repo for starting code.
+* Coding-boot-camp / super-disco repository
+* Mark Kelly
 
