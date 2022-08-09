@@ -1,7 +1,7 @@
 # Work Day Scheduler
 * This is a work day scheduler created using JavaScript and JQuery to capture the day's events.
 # Installation
-* No installation required.
+* No installation is required.
 # Usage
 * Enter calendar details within each block of time and select the save button. 
 * Each block of time is color coded based on the time of day. For example, if the block of time is in the past > then the corresponding block of time will be dark gray. If the block of time is in the present then the block of time will be red. Finally, if the block of time is in the future, then the shading of the block will be green. 
